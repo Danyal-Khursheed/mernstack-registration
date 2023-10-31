@@ -1,0 +1,87 @@
+:root{
+    --primary-white: rgb(255, 255, 255);
+    --primary-dark:#000;
+    --primary-gray:#cdcdcdd8;
+    --primary-border: #cdcdcdd8;
+    ;
+
+}
+.navbar {
+    background: rgb(249,167,3);
+background: linear-gradient(180deg, rgba(249,167,3,1) 0%, rgba(255,255,255,1) 100%);
+position: fixed;
+    
+}
+.logo{
+    width: 170px;
+}
+.nav-link{
+    color: var(--primary-white);
+    font-weight: 700;
+    margin-left: 15px; 
+    margin-right: 15px; 
+    font-size: 18px;
+    border-bottom: 3px solid var(--primary-gray);
+}
+
+.nav-link.active,.nav-link:focus,.nav-link:hover{
+    color: var(--primary-white);
+    font-weight: 700;
+    margin-left: 15px; 
+    margin-right: 15px; 
+    font-size: 18px;
+    border-bottom: 3px solid var(--primary-white);
+    transition: color .33s linear .5s, border-color ease-out .5s, background-color .33s linear 0s;
+}
+.NavButton{
+    
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: var(--primary-white);
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(62, 62, 62, 0.7), rgba(0, 0, 0, 0));
+    font-weight: 700;
+    
+}
+.NavButton.active,.NavButton:focus,.NavButton:hover{
+   
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    color: var(--primary-white);
+    width: 100px;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(62, 62, 62, 0.7), rgba(0, 0, 0, 0));
+    font-weight: 700;
+    transition: color .33s linear .5s, border-color ease-out .5s, background-color .33s linear 0s;
+    
+}
+.form-label{
+    font-weight: 500;
+}
+.name-item > input {
+    border-bottom: 2px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    
+    
+}
+.signup{
+    color: rgb(207, 207, 207);
+}
+
+.signup-btn{
+    width: 20px;
+}
+.testbox{
+    background-color: #e7e0ccc4;
+    
+    border-radius: 20px;
+    width: 400px;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.input{
+    border-radius: 10px;
+}

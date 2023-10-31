@@ -1,0 +1,50 @@
+.yellowbox{
+    margin-top: 100px;
+    transform: translate(150px,60px);
+    height: 400px;
+    width: 400px;
+    background-color: #f9a703;
+    border-radius: 50%;
+    display: inline-block;
+}
+.image{
+    margin-top: 100px;
+    transform: translate(70px,-400px);
+    height: 400px;
+    width: 400px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+.info{
+    margin-top: 400px;
+}
+.info >p {
+    width: 400px;
+    margin-top:20px ;
+}
+.info >h3{
+    color: #f9a703;
+}
+.info >button{
+    padding: 15px;
+    border: none;
+    background-color: #f9a703;
+    color: white;
+    border-radius: 10px;
+}
+
+.center {
+    display: flex;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    /* -ms-transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    flex-direction: column;
+  }
+  .center >h1{
+    color: #f9a703;
+  }

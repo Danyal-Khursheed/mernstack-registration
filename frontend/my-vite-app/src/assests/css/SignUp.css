@@ -1,0 +1,145 @@
+.form-body{
+    background-color: #e7e0ccc4;
+    text-align: center;
+    border-radius: 20px;
+    width: 700px;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.main-box1{
+    display: flex;
+    flex-direction: column;
+    transform: translateX(70px);
+    align-items: center;
+}
+
+.main-box2{
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    align-items: center;
+}
+
+
+.input,.input:focus,.input:hover{
+   
+        width: 200px;
+        text-align: center;
+        border-bottom: 2px solid black;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        background-color: transparent;
+    
+}
+
+label{
+   
+    border: none;
+}
+
+.gender{
+    display: flex;
+    flex-direction: row;
+}
+span {
+    min-width: 50px;
+    font-size: 0;
+  }
+  
+  input[type=radio] {
+    display: none;
+  }
+  
+  input[type=radio]:checked + label {
+    background-color: #fac356;
+    color: #000;
+  }
+  
+  label {
+    
+    color: #000000;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 50%;
+    padding: 2px 15px 2px 5px;
+  }
+  
+  .female {
+    right: 0;
+    left: inherit;
+  }
+
+
+
+
+  
+  .btn > button{
+    border: none;
+    background-color: #fac356;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+
+  }
+
+  .btn > button:hover{
+    border: none;
+    background-color: #ffbe3d;
+    border-radius: 10px;
+    padding: 10px;
+
+  }
+
+
+
+  /* Mobile */
+
+
+  .form-body-mobile{
+    background-color: #e7e0ccc4;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    
+}
+.main-box1-mobile{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+.main-box2-mobile{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+
+
+
+
+.backtohome{
+  border: none;
+  background-color: #fac356;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+
+}
+
+.backtohome:hover{
+  border: none;
+  background-color: #ffbe3d;
+  border-radius: 10px;
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
